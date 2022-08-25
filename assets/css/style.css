@@ -1,0 +1,73 @@
+@import url('../font/stylesheet.css');
+/* @import font css */
+/* unversal tag sellector */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* unversal tag sellector */
+/* :root css setcion */
+:root{
+    --grovbe-fonts:'Gilroy';
+    --grovbe-weight-100:100;
+    --grovbe-weight-200:200;
+    --grovbe-weight-300:300;
+    --grovbe-weight-400:400;
+    --grovbe-weight-500:500;
+    --grovbe-weight-600:600;
+    --grovbe-weight-700:700;
+    --grovbe-weight-800:800;
+    /* line height */
+    --grovbe-line__70-31:70.31px;
+    --grovbe-line__52-73:52.73px;
+    --grovbe-line__24:24px;
+    --grovbe-line__28-13:28.13px;
+    --grovbe-line__17-58:17.58px;
+    --grovbe-line__16-41:16.41px;
+    /* line height */
+    /* font size */
+    --grovbe-size-60:60px;
+    --grovbe-size-45:45px;
+    --grovbe-size-24: 24px;
+    --grovbe-size-20:20px;
+    --grovbe-size-16:16px;
+    --grovbe-size-15:15px;
+    --grovbe-size-14:14px;
+    --grovbe-colors-ff: #FFFFFF;
+    --grovbe-colors-fa: #FAFAFA;
+
+}
+/* :root css setcion */
+
+/* Page body section */
+body{
+    font-family: var(--grovbe-fonts);
+    font-weight: 200;
+    font-style: normal;
+    width: 100%;
+    min-height: 4000vh;
+}
+/* Page body section */
+
+/* container tag class */
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+/* container tag class */
+
+/* heading one, two, three, five, fifte, sex  */
+    h1, h2{
+        font-family: var(--grovbe-fonts);
+    }
+    h1{
+        font-weight: bold;
+        font-size: var(--grovbe-size-62);
+    }
+    h2{
+        font-weight: bold;
+        font-size: var(--grovbe-size-45);
+
+    }
+/* heading one, two, three, five, fifte, sex  */
