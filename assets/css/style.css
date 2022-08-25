@@ -42,6 +42,9 @@
     --grovbe-colors-ff: #FFFFFF;
     --grovbe-colors-fa: #FAFAFA;
     /* colors */
+    /* box shadow */
+    --grovbe-box-card__shadow-15: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+    /* box shadow */
 }
 /* :root css setcion */
 
@@ -57,7 +60,7 @@ body{
 
 /* container tag class */
 .container{
-    max-width: 1110px;
+    max-width: 1170px;
     margin: 0 auto;
 }
 /* container tag class */
